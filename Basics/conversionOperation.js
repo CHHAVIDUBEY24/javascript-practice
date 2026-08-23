@@ -1,4 +1,5 @@
-let score="33abc";
+//Conversion of Data Type
+let score="33abc"; //->NaN when converted to string
 let sc="12";
 
 let s=null   // -> when its type is converted from string to number the null value got converted to 0
