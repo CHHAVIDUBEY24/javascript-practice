@@ -51,3 +51,17 @@ console.log(typeof undefined); //undefined
 
  //In "typeof" all the non primitives gives object and function gives function which is also the function object/(object function)
 
+//Primitives are stored in "stack" -> here we get copy of the declared variable
+//Non Primitives are stored in "heap" -> here we get the reference of the variable -> here all the changes are accomodate in the original value
+
+let userOne=
+{
+    name:"Xyz",
+    email: "xyz@gmail.com",
+
+}
+let userTwo=userOne;
+userTwo.email="abc@gmail.com"
+
+console.log(userOne);
+console.log(userTwo);
